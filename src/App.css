@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
 }
 
 .App-header {
@@ -20,3 +20,34 @@
 .App-link {
   color: #09d3ac;
 }
+
+body {
+  background:seagreen !important;
+  width: 100%;
+}
+
+.repo-list{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.ui_card {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  border-radius: inherit;
+  justify-content: center !important;
+}
+
+.repo-icon{
+  width:50% !important;
+  justify-content: center !important;
+}
+
+.ui.cards>.card>.image>img{
+  display: none !important;
+}
+
